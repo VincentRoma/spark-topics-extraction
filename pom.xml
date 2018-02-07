@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.faurecia.stratos.tools</groupId>
+    <groupId>org.opentools.text.extraction</groupId>
     <artifactId>ExtractTopics</artifactId>
     <version>1.0</version>
     <properties>
@@ -46,7 +46,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.faurecia.stratos.tools.ExtractTopics</mainClass>
+                            <mainClass>org.opentools.text.extraction.ExtractTopics</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
