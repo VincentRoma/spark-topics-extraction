@@ -6,8 +6,7 @@
 
 3. Configure HDFS output path in config.properties
 
-4. `spark-submit --class org.opentools.text.extraction.ExtractTopics --master yarn ExtractTopics-1.0.jar
-`
+4. `spark-submit --class org.opentools.text.extraction.ExtractTopics --master yarn --deploy-mode cluster ExtractTopics-1.0.jar`
 
 ## Compilation
 

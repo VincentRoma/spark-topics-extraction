@@ -8,7 +8,7 @@ import org.apache.spark.ml.feature.StopWordsRemover
 class ExtractTopics {
     def main(args: Array[String]){
         // Spark conf & set up
-        val conf = new SparkConf().setAppName("Topic Extraction")
+        val conf = new SparkConf().setMaster("yarn").setAppName("Topic Extraction")
         val sc = new SparkContext(conf)
 
         // Load user specific properties
