@@ -1,4 +1,4 @@
-package org.opentools.text.extraction
+package org.opentools.extraction
 
 import org.apache.spark.SparkContext._
 import org.apache.spark.{SparkConf,SparkContext}
